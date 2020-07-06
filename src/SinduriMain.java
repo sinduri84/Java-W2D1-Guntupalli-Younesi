@@ -22,6 +22,13 @@ public class SinduriMain {
         newNames.getFullNameUpperCase("Minerva", "Fg");
         newNames.getFullNameUpperCase("Hella", "fg");
 
+        SinBankAccount sinsAccount = new SinBankAccount();
+        sinsAccount.deposit(200);
+        sinsAccount.deposit(500);
+        sinsAccount.withdrawal(1000);
+        sinsAccount.deposit(800);
+        sinsAccount.withdrawal(5000);
+
 
     }
 
